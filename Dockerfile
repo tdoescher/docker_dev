@@ -37,6 +37,7 @@ RUN rm -rf /var/www/html \
   && chmod 0440 /etc/sudoers.d/www-data
 
 COPY --chown=33:33 home /var/www
+RUN chown 33:33 /var/www
 
 WORKDIR /var/www
 USER www-data
