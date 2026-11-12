@@ -1,0 +1,77 @@
+# One Dark Pro für micro – mit dunklem Hintergrund #101112 (wie Zed-Overrides)
+# Palette nach One Dark Pro:
+#   fg #ABB2BF  rot #E06C75  orange #D19A66  gelb #E5C07B  grün #98C379
+#   cyan #56B6C2  blau #61AFEF  lila #C678DD  kommentar #7F848E
+
+# Grundfarben
+color-link default                "#ABB2BF,#101112"
+color-link comment                "italic #7F848E"
+color-link comment.bright         "italic #7F848E"
+color-link ignore                 "#5C6370"
+
+# Bezeichner
+# micro markiert in PHP Funktionsaufrufe "foo(" als identifier.class -> blau
+color-link identifier             "#61AFEF"
+color-link identifier.class       "#61AFEF"
+color-link identifier.var         "#E06C75"
+color-link identifier.macro       "#61AFEF"
+color-link identifier.attribute   "#D19A66"
+
+# Keywords / Typen
+color-link statement              "#C678DD"
+color-link type.keyword           "#C678DD"
+color-link special                "#C678DD"
+color-link type                   "#E5C07B"
+color-link type.extended          "#E5C07B"
+color-link preproc                "#C678DD"
+color-link preproc.shebang        "#7F848E"
+color-link underlined             "underline #61AFEF"
+
+# Konstanten / Literale
+color-link constant               "#D19A66"
+color-link constant.bool          "#D19A66"
+color-link constant.number        "#D19A66"
+color-link constant.string        "#98C379"
+color-link constant.string.char   "#98C379"
+color-link constant.string.url    "underline #98C379"
+color-link constant.specialChar   "#56B6C2"
+
+# Symbole
+color-link symbol                 "#ABB2BF"
+color-link symbol.operator        "#56B6C2"
+color-link symbol.brackets        "#ABB2BF"
+color-link symbol.tag             "#E06C75"
+color-link symbol.tag.extended    "#E06C75"
+
+color-link error                  "#E06C75"
+color-link todo                   "bold #E5C07B"
+
+# Editor-Oberfläche
+color-link selection              "#ABB2BF,#3E4451"
+color-link cursor-line            "#1C1E21"
+color-link color-column           "#1C1E21"
+color-link line-number            "#495162,#101112"
+color-link current-line-number    "#ABB2BF,#101112"
+color-link indent-char            "#3B4048"
+color-link match-brace            "#ABB2BF,#515A6B"
+color-link hlsearch               "#101112,#E5C07B"
+color-link tab-error              "#E06C75"
+color-link trailingws             "#E06C75"
+
+color-link statusline             "#9DA5B4,#21252B"
+color-link statusline.inactive    "#5C6370,#21252B"
+color-link statusline.suggestions "#ABB2BF,#21252B"
+color-link tabbar                 "#5C6370,#21252B"
+color-link tabbar.active          "#ABB2BF,#101112"
+color-link divider                "#21252B,#101112"
+color-link scrollbar              "#4B5362"
+color-link message                "#ABB2BF"
+color-link error-message          "#E06C75"
+
+# Diff / Git-Gutter
+color-link diff-added             "#98C379"
+color-link diff-modified          "#D19A66"
+color-link diff-deleted           "#E06C75"
+color-link gutter-error           "#E06C75"
+color-link gutter-warning         "#E5C07B"
+color-link gutter-info            "#61AFEF"

@@ -1,0 +1,5 @@
+[container]
+style = 'bold red'
+
+[hostname]
+style = 'bold green'
